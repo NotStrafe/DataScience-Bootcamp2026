@@ -1,6 +1,42 @@
-.venv/
-__pycache__/
-.ipynb_checkpoints/
-.DS_Store
+# Исходные данные и рабочие артефакты
 datasets/
 notebook_outputs/
+answer_reproduced.csv
+
+# Окружения, кэши и временные файлы Python/Jupyter
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.cache/
+*.log
+
+# Локальные настройки и файлы операционной системы
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+Thumbs.db
+.vscode/
+.idea/
+
+# Секреты и служебные учётные данные
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+credentials.json
+service-account*.json
+token*.json
+
+# Временные копии ответа и эксперименты
+*.tmp
+*.bak
+experiment_*.ipynb
