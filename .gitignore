@@ -2,6 +2,16 @@
 datasets/
 notebook_outputs/
 answer_reproduced.csv
+*.parquet
+*.csv
+!answer.csv
+*.npy
+*.npz
+*.pkl
+*.pkl.gz
+*.safetensors
+*.pt
+*.pth
 
 # Окружения, кэши и временные файлы Python/Jupyter
 .venv/
@@ -35,6 +45,10 @@ Thumbs.db
 credentials.json
 service-account*.json
 token*.json
+.netrc
+.kaggle/
+*.key
+secrets.*
 
 # Временные копии ответа и эксперименты
 *.tmp
